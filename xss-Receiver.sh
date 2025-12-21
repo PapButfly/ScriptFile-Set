@@ -17,8 +17,10 @@ else
     git clone https://github.com/DL668/XSSReceiver.git
     cd XSSReceiver
 fi
-
-# 2. 启动容器
+# 2. 清理旧容器
+echo "正在清理旧容器..."
+docker compose down -v 2>/dev/null
+# 3. 启动容器
 docker compose up -d
 
 echo "XSS-Receiver 搭建完成"
