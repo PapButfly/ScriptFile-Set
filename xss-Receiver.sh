@@ -9,8 +9,14 @@ echo "XSS-Receiver将于5秒后开始搭建"
 sleep 5
 
 # 1. 克隆项目
-git clone https://github.com/DL668/XSSReceiver.git
-cd XSSReceiver
+if [ -d "XSSReceiver" ]; then
+    echo "目录已存在，进入目录..."
+    cd XSSReceiver
+else
+    echo "正在克隆仓库..."
+    git clone https://github.com/DL668/XSSReceiver.git
+    cd XSSReceiver
+fi
 
 # 2. 启动容器
 docker compose up -d
