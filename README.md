@@ -1,7 +1,23 @@
-# mine-XSSReceiver
+# 放置/备份自写或者网上的 sh 文件
 
-由于目前家里没有服务器，为了每次租服务器后快速 `docker` 搭建 `XSSReceiver`，存了点 `sh` 文件在这用于快速搭建。
+## 换源问题
 
-服务器系统：Debian（Ubuntu 20）
+> 项目地址: https://github.com/SuperManito/LinuxMirrors
 
-厂商：阿里云
+- ### GNU/Linux 更换系统软件源
+
+    ```bash
+    bash <(curl -sSL https://linuxmirrors.cn/main.sh)
+    ```
+
+- ### Docker 安装与换源
+
+    ```bash
+    bash <(curl -sSL https://linuxmirrors.cn/docker.sh)
+    ```
+
+- ### Docker 更换镜像加速器（已安装docker）
+
+    ```bash
+    bash <(curl -sSL https://linuxmirrors.cn/docker.sh) --only-registry
+    ```
