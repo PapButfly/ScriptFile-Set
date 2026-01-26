@@ -1,8 +1,8 @@
-# 放置/备份自写或者网上的 sh 文件
+# 备份常用的 sh 文件
 
 ## 换源问题
 
-> 项目地址: https://github.com/SuperManito/LinuxMirrors
+> 来源于: https://github.com/SuperManito/LinuxMirrors
 
 - ### GNU/Linux 更换系统软件源
 
