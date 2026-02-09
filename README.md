@@ -21,3 +21,9 @@
     ```bash
     bash <(curl -sSL https://linuxmirrors.cn/docker.sh) --only-registry
     ```
+
+- ### Git 换源（国内）
+
+    ```bash
+    bash <(curl -sSL https://raw.githubusercontent.com/SuperManito/LinuxMirrors/main/ChangeMirrors.sh)
+    ```
