@@ -27,3 +27,13 @@
     ```bash
     bash <(curl -sSL https://raw.githubusercontent.com/SuperManito/LinuxMirrors/main/ChangeMirrors.sh)
     ```
+
+## 其他命令
+
+- ### Linux 改时区
+  
+  ```bash
+  sudo timedatectl set-timezone Asia/Shanghai
+  ```
+
+  
