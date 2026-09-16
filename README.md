@@ -28,6 +28,13 @@
     bash <(curl -sSL https://raw.githubusercontent.com/SuperManito/LinuxMirrors/main/ChangeMirrors.sh)
     ```
 
+- ### Docker 更换轩辕镜像
+
+    ```bash
+    bash <(wget -qO- https://get.xuanyuan.cloud/docker.sh)
+    ```
+
+
 ## 其他命令
 
 - ### Linux 改时区
