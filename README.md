@@ -34,6 +34,12 @@
     bash <(wget -qO- https://get.xuanyuan.cloud/docker.sh)
     ```
 
+- ### Pip 换源
+
+    ```bash
+    pip config set global.extra-index-url "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple http://mirrors.aliyun.com/pypi/simple https://mirrors.cloud.tencent.com/pypi/simple"
+    ```
+
 
 ## 其他命令
 
