@@ -51,4 +51,10 @@
   sudo timedatectl set-timezone Asia/Shanghai
   ```
 
+- ### Viper 自动安装（docker）
+  
+  ```bash
+  bash <(curl -fsSL https://viperrtp.com/install_zh.sh)
+  ```
+
   
